@@ -1,0 +1,15 @@
+.header-logo{
+    height: 80px;
+    
+
+}
+.header-logo img{
+    height: 80px;
+    padding-left: 140px;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    background-color: bisque;
+}
