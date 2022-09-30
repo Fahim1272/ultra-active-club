@@ -3,7 +3,7 @@ import './Cards.css'
 
 const Cards = (props) => {
     const {data, event} = props;
-    const {img, time, age, name, Status} = data
+    const {img, time, age, name, status} = data
      return (
         <div className='cardStatus' data-aos="zoom-in-left">
             <div>
@@ -12,7 +12,7 @@ const Cards = (props) => {
                 <h5 style={{color : 'grey', 
                 margin: '2px', 
                 fontWeight : '400',
-                fontSize: '12px'}}>{Status}</h5>
+                fontSize: '12px'}}>{status}</h5>
                 <h6 style={{margin : '0px'}}>Age : {age}</h6>
                 <h5 style={{margin : '0px'}}>Time : {time}</h5>
                 <br />
