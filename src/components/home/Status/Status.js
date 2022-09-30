@@ -49,11 +49,7 @@ const Status = (props) => {
                 <button onClick={addToBreak}>30s</button>
                 <button onClick={addToBreak}>40s</button>
                 <button onClick={addToBreak}>50s</button>
-                {/* <button onClick={(e) => addBreakTime(e.target.innerText)}>10s</button>
-                <button onClick={(e) => addBreakTime(e.target.innerText)}>20s</button>
-                <button onClick={(e) => addBreakTime(e.target.innerText)}>30s</button>
-                <button onClick={(e) => addBreakTime(e.target.innerText)}>40s</button>
-                <button onClick={(e) => addBreakTime(e.target.innerText)}>50s</button> */}
+                
             </div>
             <br />
             <Exercise breakes = {breakes} data={props.data}></Exercise>
