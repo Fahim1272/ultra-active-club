@@ -1,10 +1,10 @@
 .headerContainer{
     background-color :rgb(245, 254, 255);
-    padding: 20px;
+    padding: 10px;
+    margin-left: 10px;
     height: 100vh;
     border-radius: 20px;
-    
-    
+       
 }
 
 .header{
@@ -20,7 +20,7 @@
     border-radius: 50%;
 }
 
-.details{
+.Status{
     margin-top: 25px;
     display: flex;
     align-items: center;
@@ -42,7 +42,7 @@
 }
 
 .buttons button:focus{
-    background-color: blueviolet;
+    background-color: darkgoldenrod;
     color: white;
 }
 

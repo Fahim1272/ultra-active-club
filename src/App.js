@@ -1,13 +1,14 @@
 import './App.css';
-import Activites from './components/home/Activities/Activities';
+
 import Home from './components/home/Home';
 
 function App() {
   return (
-    <div>
+    
+      <div className="App">
       <Home></Home>
-      <Activites></Activites>
     </div>
+    
   );
 }
 

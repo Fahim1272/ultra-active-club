@@ -15,7 +15,8 @@
 }
 
 .complete{
-    background-color: blueviolet;
+    background-color:darkgoldenrod;
+    width: 100%;
     padding: 10px 30px;
     color: white;
     font-weight: 600;

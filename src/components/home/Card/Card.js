@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import logo from '../../images/logo1.jpg';
+import logo from '../logo1.jpg';
 import Cards from '../Cards/Cards';
 import './Card.css'
 const Card = (props) => {

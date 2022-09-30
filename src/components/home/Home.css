@@ -10,7 +10,8 @@
 }
 
 .question div{
-    background-color: aquamarine;
+    background-color: darkgoldenrod;
+    color: white;
     padding: 15px;
     margin: 20px;
     border-radius: 20px;
@@ -21,8 +22,11 @@
         margin: 15px;
     }
     .question{
+        /* margin-top: 30px; */
         margin: 15px;
+        margin-top:150px
     }
+    
 }
 @media only screen and (min-Width:669px) and (max-width:1080px){
     .container{
@@ -30,5 +34,8 @@
     }
     .question{
         margin: 50px;
+    }
+    .head-of-question{
+        margin-top:50px
     }
 }

@@ -23,7 +23,7 @@ const Exercise = (props) => {
     const notify = () => toast("Activity Completed");
     return (
         <div>
-            <h4>Exercise details</h4>
+            <h4>Exercise Status</h4>
             <div>
                 <div className='exercise' data-aos="zoom-out">
                     <h4>Exersice time</h4>

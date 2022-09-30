@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1001,
+    "name": "Sprint",
+    "details": "ChopFit Functional Trainer System, Portable at Home Gym Workout Equipment",
+    "time": 20,
+    "age": "20-30",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnBy7cHedD9ouYaKJDdR-enAzctsenza_wrQ&usqp=CAU" 
+  },
+  {
+    "id": 1002,
+    "name": "Skipping Rope",
+    "details": "Yes4All Adjustable Dumbbell Set/ Selectorized Dumbbell 25, 40, 50, 55, 60, 100, 105 To 200LBS With Connector",
+    "time": 30,
+    "age": "20-25",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5etaQPf0wTE1Q1tMEaZuaXyRAGEji9RxNew&usqp=CAU" 
+  },
+  {
+    "id": 1003,
+    "name": "Cycling",
+    "details": "RitFit Preacher Curl Bench Adjustable for Arm Curling Training, Isolated Barbell Dumbbell",
+    "time": 25,
+    "age": "20-35",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnNRp3TIYknGyynjFl7pCBlCaGX7UE1DoppQ&usqp=CAU" 
+  },
+  {
+    "id": 1004,
+    "name": "Meditation",
+    "details": "Another machine that definitely must have caught everyone’s attention is the power tower.",
+    "time": 30,
+    "age": "20-30",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqK9ZW-0cUukrOJoLjaK1Jgv6lUCoVRCROJg&usqp=CAU" 
+  },
+  {
+    "id": 1005,
+    "name": "Push-Up",
+    "details": "Marcy Recumbent Exercise Bike with Magnetic Resistance and Pulse Sensor NS-908R.",
+    "time": 10,
+    "age": "20-30",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyWhF0ssK6jeYsHPZLVTTzdwju4D44RxQAkA&usqp=CAU" 
+  },
+  {
+    "id": 1006,
+    "name": "Jogging",
+    "details": "Fitness Reality Magnetic Rowing Machine with Bluetooth Workout Tracking Built-In ",
+    "time": 40,
+    "age": "25-30",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDtJ9D9ounbztUOx4cde3h0Y2P-ykOkw9K_g&usqp=CAU" 
+  }
+  
+ 
+]

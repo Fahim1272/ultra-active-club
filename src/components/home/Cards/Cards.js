@@ -3,16 +3,16 @@ import './Cards.css'
 
 const Cards = (props) => {
     const {data, event} = props;
-    const {img, time, age, name, details} = data
+    const {img, time, age, name, Status} = data
      return (
-        <div className='cardDetails' data-aos="zoom-in-left">
-                        <div>
+        <div className='cardStatus' data-aos="zoom-in-left">
+            <div>
                 <img src={img} alt="" />
                 <h5 style={{margin : '2px'}}>{name}</h5>
                 <h5 style={{color : 'grey', 
                 margin: '2px', 
                 fontWeight : '400',
-                fontSize: '12px'}}>{details}</h5>
+                fontSize: '12px'}}>{Status}</h5>
                 <h6 style={{margin : '0px'}}>Age : {age}</h6>
                 <h5 style={{margin : '0px'}}>Time : {time}</h5>
                 <br />
