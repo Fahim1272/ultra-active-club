@@ -11,10 +11,10 @@ const Status = (props) => {
     return (
         <div className='headerContainer' >
             <div className='header' data-aos="flip-left">
-                <img src="../fahim.png" alt="" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSyIncLVC6hbuiSqdu8w_pyhvQbjFj-b3lYA&usqp=CAU" alt="" />
                 <div>
                     <h4 style={{margin: '0px'}}>Fahim M Ishaq</h4>
-                    <p style={{margin: '0px'}}>Chittagong, Bangladesh</p>
+                    <p style={{margin: '0px'}}>Bangladesh</p>
                 </div>
             </div>
             <div className='Status' data-aos="fade-right">
