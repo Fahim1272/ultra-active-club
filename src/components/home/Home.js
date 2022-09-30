@@ -7,9 +7,6 @@ const Home = () => {
     const [data, setData] = useState(0);
     
     const addToList = (time) => {
-        
-        
-        
         setData(data + time)
     }
     

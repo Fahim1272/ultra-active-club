@@ -2,23 +2,13 @@
 import './Exercise.css';
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 
 
 const Exercise = (props) => {
     
     
-    const {data, dataTwo} = props;
-
-    
-    
-
-    
-    
-
-   
-
-    
+    const {breakes, data} = props;
     
     const notify = () => toast("Activity Completed");
     return (
@@ -29,14 +19,14 @@ const Exercise = (props) => {
                     <h4>Exersice time</h4>
                     <h5 style={{
                         color : 'grey',
-                    }}>{dataTwo}s</h5>
+                    }}>{data}</h5>
                 </div>
                 <br />
                 <div className='break-time' data-aos="zoom-out">
                     <h4>Break time</h4>
                     <h5 style={{
                         color : 'grey',
-                    }}>{data}</h5>
+                    }}>{breakes}</h5>
                 </div>
             </div>
             <br />

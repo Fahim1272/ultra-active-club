@@ -1,12 +1,23 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Exercise from '../Exercise/Exercise';
 import './Status.css'
 
 const Status = (props) => {
-    const [btndata, setBtndata] = useState(0);
-    const addBreakTime = (data) => {
-        localStorage.setItem('break time', data)
-        setBtndata(data)
+    const [breakes, setBreakes] = useState('');
+    
+    
+    useEffect(() => {
+        const storedCart = localStorage.getItem("break");
+        if (storedCart) {
+            setBreakes(JSON.parse(storedCart));
+        } else {
+            setBreakes("0");
+        }
+    }, [breakes]);
+
+    const addToBreak = (e) => {
+        localStorage.setItem("break", JSON.stringify(e.target.innerText));
+        setBreakes(e.target.innerText);
     }
     return (
         <div className='headerContainer' >
@@ -33,14 +44,19 @@ const Status = (props) => {
             </div>
             <h4>Add a break</h4>
             <div className='buttons' data-aos="zoom-in">
-                <button onClick={(e) => addBreakTime(e.target.innerText)}>10s</button>
+            <button onClick={addToBreak}>10s</button>
+                <button onClick={addToBreak}>20s</button>
+                <button onClick={addToBreak}>30s</button>
+                <button onClick={addToBreak}>40s</button>
+                <button onClick={addToBreak}>50s</button>
+                {/* <button onClick={(e) => addBreakTime(e.target.innerText)}>10s</button>
                 <button onClick={(e) => addBreakTime(e.target.innerText)}>20s</button>
                 <button onClick={(e) => addBreakTime(e.target.innerText)}>30s</button>
                 <button onClick={(e) => addBreakTime(e.target.innerText)}>40s</button>
-                <button onClick={(e) => addBreakTime(e.target.innerText)}>50s</button>
+                <button onClick={(e) => addBreakTime(e.target.innerText)}>50s</button> */}
             </div>
             <br />
-            <Exercise data = {btndata} dataTwo={props.data}></Exercise>
+            <Exercise breakes = {breakes} data={props.data}></Exercise>
         </div>
     );
 };
