@@ -11,7 +11,7 @@ const Status = (props) => {
     return (
         <div className='headerContainer' >
             <div className='header' data-aos="flip-left">
-                <img src="" alt="" />
+                <img src="../fahim.png" alt="" />
                 <div>
                     <h4 style={{margin: '0px'}}>Fahim M Ishaq</h4>
                     <p style={{margin: '0px'}}>Chittagong, Bangladesh</p>
